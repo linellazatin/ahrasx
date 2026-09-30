@@ -1,0 +1,13 @@
+## annoying
+.DS_Store
+
+## internal docs
+plans/
+specs/
+
+## internal tools
+.nanomneme/
+
+## this
+.ahrasx/
+reports/

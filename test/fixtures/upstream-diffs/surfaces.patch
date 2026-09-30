@@ -1,0 +1,16 @@
+diff --git a/src/extensions/api.js b/src/extensions/api.js
+index 1111111..2222222 100644
+--- a/src/extensions/api.js
++++ b/src/extensions/api.js
+@@ -1,2 +1,3 @@
+ export function install(api) {
++  registerTool({ name: 'recall_memory' });
+ }
+diff --git a/src/hooks/lifecycle.js b/src/hooks/lifecycle.js
+index 3333333..4444444 100644
+--- a/src/hooks/lifecycle.js
++++ b/src/hooks/lifecycle.js
+@@ -3,3 +3,2 @@ export const hooks = {
+-  before_provider_request: legacyHandler,
++  // before_provider_request is documented elsewhere.
+ };

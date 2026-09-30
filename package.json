@@ -1,0 +1,16 @@
+{
+  "name": "ahrasx",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26.10.0"
+  },
+  "bin": {
+    "ahrasx": "bin/ahrasx.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/ahrasx.js && node --check src/*.js src/engine/*.js src/harnesses/*.js && node --test"
+  }
+}
